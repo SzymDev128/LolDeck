@@ -11,3 +11,4 @@ skills-lock.json
 # Documentation
 LOLDEC~2.MD
 LoLDeck-Roadmap.md
+/src/generated/prisma
