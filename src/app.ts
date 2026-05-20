@@ -1,7 +1,7 @@
 import express from 'express';
 import helmet from 'helmet';
 import cors from 'cors';
-import healthRouter from '@/routes/health.js';
+import router from '@/routes/index.js';
 
 const app = express();
 
@@ -9,6 +9,6 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
-app.use('/health', healthRouter);
+app.use('/api', router);
 
 export default app;
