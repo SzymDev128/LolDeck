@@ -1,0 +1,13 @@
+.node_modules
+.dist
+.env
+.env.*
+*.log
+
+# AI
+.agents
+skills-lock.json
+
+# Documentation
+LOLDEC~2.MD
+LoLDeck-Roadmap.md
